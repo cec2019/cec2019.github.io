@@ -1,0 +1,29 @@
+###
+## Configuration
+###
+
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Site Info
+title: "CEC 2019 | University of Waterloo"
+description: "Welcome to the Canadian Engineering Competition (CEC) 2019, hosted this year by the University of Waterloo."
+
+keywords: cec,canada,engineering,engineer,canadian,competition,2019,national,post-secondary,institution,university,college,university,waterloo
+
+url: 
+baseurl: ""
+
+# Site Content
+logo: /static/img/favicon.png
+
+# Assets
+sass:
+ sass_dir: static/stylesheets/_scss
+ style: :compressed
+
+autoprefixer:
+  browsers:
+    - last 5 versions

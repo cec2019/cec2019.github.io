@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<header class="ui-navigation">
+  <img src="/static/img/ceclogo.svg">
+  <nav>
+    <ul>
+      <li><a href="/" rel="index">Home</a></li>
+      <li><a href="#about">About CEC</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="ui-layout" id="nameplate">
+  <div class="ui-section">
+    {% include nameplate.html %}
+  </div>
+</section>
+<div class="stat-banner">
+  <ul>
+    {% for stat in site.data.stats %}
+    <li class="stat-banner__block">
+      <span class="stat-banner__number">{{ stat.number }}</span>
+      <span class="stat-banner__label">{{ stat.label }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+<section class="ui-section" id="about">
+  <h1>
+    <span>Canada's premier engineering competition is back,</span>
+    <span>hosted by the nation's most innovative university.</span>
+  </h1>
+  <p>The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories.</p>
+  <p>In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective <a href="">Western</a>, <a href="">Ontario</a>, <a href="">Québec</a>, and <a href="">Atlantic</a> regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub.</p>
+</section>
+<section class="ui-section" id="categories">
+  <h1>Competition Categories</h1>
+  <ul>
+    {% for category in site.data.categories %}
+    <li>
+      <h2>{{ category.title }}</h2>
+      <p>{{ category.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+<section class="ui-section">
+  <div class="ui-stack" id="sponsors">
+    <h1>Sponsorship</h1>
+    <p></p>
+  </div>
+
+  <ul>
+    <li></li>
+  </ul>
+</section>
