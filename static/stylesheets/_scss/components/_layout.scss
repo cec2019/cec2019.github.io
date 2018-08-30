@@ -1,5 +1,7 @@
 .ui-layout {
   width: 100%;
+  height: auto;
+  padding: 10vh 0;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -10,5 +12,5 @@
 .ui-section {
   width: 80%;
   height: 80%;
-  margin: 0 auto;
+  margin: 12.5% auto;
 }
