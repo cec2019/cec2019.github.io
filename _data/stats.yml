@@ -1,11 +1,11 @@
-- number: 4
-  label: days of fun
-
-- number: 8
-  label: competition categories
+- number: 150
+  label: engineering students
 
 - number: 44
   label: post-secondary institutions
 
-- number: 150
-  label: engineering students
+- number: 8
+  label: competition categories
+
+- number: 4
+  label: days of fun

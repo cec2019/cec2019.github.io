@@ -1,7 +1,6 @@
-.ui-layout {
+.ui-section {
   width: 100%;
   height: auto;
-  padding: 10vh 0;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -9,8 +8,8 @@
   align-items: center;
 }
 
-.ui-section {
+.ui-section__item {
   width: 80%;
   height: 80%;
-  margin: 12.5% auto;
+  margin: 10% auto;
 }

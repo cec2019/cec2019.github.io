@@ -1,0 +1,11 @@
+.ui-stack {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.ui-stack__item {
+  width: calc(50% - 2rem);
+}

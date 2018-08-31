@@ -13,8 +13,8 @@ layout: default
     </ul>
   </nav>
 </header>
-<section class="ui-layout" id="home">
-  <div class="ui-section">
+<section class="ui-section" id="home">
+  <div class="ui-section__item">
     {% include nameplate.html %}
   </div>
 </section>
@@ -27,31 +27,53 @@ layout: default
   {% endfor %}
 </ul>
 <section class="ui-section" id="about">
-  <h1>
-    <span class="type-headline">Canada's premier engineering competition is back,</span>
-    <span class="type-headline">hosted by the nation's most innovative university.</span>
-  </h1>
-  <p>The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories.</p>
-  <p>In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective <a href="">Western</a>, <a href="">Ontario</a>, <a href="">Québec</a>, and <a href="">Atlantic</a> regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub.</p>
+  <div class="ui-section__item">
+    <h1>
+      <span class="type-headline">Canada's premier engineering competition is back,</span>
+      <span class="type-headline">hosted by the nation's most innovative university.</span>
+    </h1>
+    <p>The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories.</p>
+    <p>In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective <a href="">Western</a>, <a href="">Ontario</a>, <a href="">Québec</a>, and <a href="">Atlantic</a> regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub.</p>
+  </div>
 </section>
 <section class="ui-section" id="categories">
-  <h1>Competition Categories</h1>
-  <ul class="ui-grid">
-    {% for category in site.data.categories %}
-    <li class="ui-grid__item">
-      <h2 class="category__title">{{ category.title }}</h2>
-      <p class="category__desc">{{ category.description }}</p>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-<section class="ui-section">
-  <div class="ui-stack" id="sponsors">
-    <h1>Sponsorship</h1>
-    <p></p>
+  <div class="ui-section__item">
+    <h1>Competition Categories</h1>
+    <ul class="category-grid">
+      {% for category in site.data.categories %}
+      <li class="category-grid__item">
+        <h2 class="category__title">{{ category.title }}</h2>
+        <p class="category__desc">{{ category.description }}</p>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-
-  <ul>
-    <li></li>
-  </ul>
+</section>
+<section class="ui-section" id="sponsorship">
+  <div class="ui-section__item">
+    <div class="ui-stack">
+      <div class="ui-stack__item">
+        <h1>Sponsorship</h1>
+        <p>Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible for provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience.</p>
+        <p>Interested in sponsoring? Send us an email at <a href="mailto:sponsors@cec.cfes.ca">sponsors@cec.cfes.ca</a>.</p>
+        <a href="mailto:sponsors@cec.cfes.ca" class="btn">Become a sponsor</a>
+      </div>
+      <div class="ui-stack__item">
+        <h1>Our Gold Sponsors</h1>
+        <ul>
+          <li>Insert list of largest sponsors here</li>
+          <li>Insert list of largest sponsors here</li>
+          <li>Insert list of largest sponsors here</li>
+          <li>Insert list of largest sponsors here</li>
+        </ul>
+      </div>
+    </div>
+    <div class="sponsors-list">
+      <h2>Thanks to all of our partners and sponsors helping us make this happen.</h2>
+      <ul>
+        <li>Loblaws</li>
+        <li>Deloitte Digital</li>
+      </ul>
+    </div>
+  </div>
 </section>
