@@ -37,16 +37,16 @@ Competitors must redesign an existing product or process to either improve its f
 ## Schedule
 <!-- Images as temporary placeholder for schedules -->
 ### Thursday, March 8, 2019
-![GitHub Logo](/images/thu.png)
+![GitHub Logo](/static/img/schedule-thu.png)
 
 ### Friday, March 9, 2019
-![GitHub Logo](/images/fri.png)
+![GitHub Logo](/static/img/schedule-fri.png)
 
 ### Saturday, March 10, 2019
-![GitHub Logo](/images/sat.png)
+![GitHub Logo](/static/img/schedule-sat.png)
 
 ### Sunday, March 11, 2019
-![GitHub Logo](/images/sun.png)
+![GitHub Logo](/static/img/schedule-sun.png)
 
 ## Sponsorship
 

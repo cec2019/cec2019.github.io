@@ -1,3 +1,7 @@
+#sponsorship {
+  background: color(sky, lighter);
+}
+
 .ui-stack {
   margin-bottom: 4rem;
   display: flex;
@@ -8,4 +12,19 @@
 
 .ui-stack__item {
   width: calc(50% - 2rem);
+}
+
+#sponsorship-partners {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
