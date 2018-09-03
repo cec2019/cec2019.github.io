@@ -1,0 +1,12 @@
+.btn {
+  @include type-body;
+
+  margin: 2em 0;
+  padding: 1em 2em;
+  display: inline-block;
+  background: color(navy);
+  border-radius: 4em;
+  color: color(sky, light);
+  font-weight: 700;
+  text-decoration: none;
+}

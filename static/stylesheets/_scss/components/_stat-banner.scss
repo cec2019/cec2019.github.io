@@ -1,0 +1,30 @@
+.stat-banner {
+  width: 100%;
+  padding: 4em 10%;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: color(navy);
+  color: color(sky, lighter);
+  list-style: none;
+}
+
+.stat-banner__block {
+  flex: 1 1 25%;
+  display: block;
+  text-align: center;
+}
+
+.stat-banner__number {
+  display: block;
+  font-size: 4rem;
+  line-height: lh(tighter);
+  font-famiy: ff(title);
+  font-weight: 900;
+  color: color(yellow);
+}
+
+.stat-banner__label {
+  font-weight: 700;
+}

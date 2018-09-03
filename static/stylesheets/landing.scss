@@ -1,0 +1,30 @@
+---
+# landing.scss -- landing page stylesheet. compiled via jekyll.
+---
+
+// Foundation
+@import 'base/utilities';
+@import 'base/breakpoints';
+@import 'base/colors';
+@import 'base/spacing';
+@import 'base/z-index';
+@import 'base/typography/definitions';
+
+@import 'base/normalize';
+@import 'base/foundation';
+@import 'base/typography/typography';
+
+// Components
+@import 'components/button';
+@import 'components/footer';
+@import 'components/category-grid';
+@import 'components/layout';
+@import 'components/logo';
+@import 'components/navigation';
+@import 'components/stat-banner';
+
+// Overrides
+@import 'overrides/home-page';
+@import 'overrides/categories';
+@import 'overrides/schedule';
+@import 'overrides/sponsors';

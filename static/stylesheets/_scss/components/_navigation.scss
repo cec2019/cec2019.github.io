@@ -1,0 +1,44 @@
+.ui-menu {
+  width: 100%;
+  height: 5rem;
+  padding: 0 10%;
+  position: absolute;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  z-index: 2;
+  background: transparent;
+}
+
+.ui-menu__logo {
+  width: auto;
+  height: 3rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ui-nav {
+  justify-self: flex-end;
+}
+
+.ui-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ui-nav li {
+  display: inline;
+}
+
+.ui-nav a {
+  @include type-heading;
+
+  padding: 0.5em;
+  margin: 0 0.5em;
+  color: color(ink);
+  font-weight: $fw-bold;
+  text-decoration: none;
+}

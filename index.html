@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<header class="ui-menu">
+  <img src="/static/img/ceclogo.svg" class="ui-menu__logo">
+  <nav class="ui-nav">
+    <ul>
+      <li><a href="/" rel="index">Home</a></li>
+      <li><a href="#about">About CEC</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="ui-section" id="home">
+  <div class="ui-section__item">
+    {% include nameplate.html %}
+  </div>
+</section>
+<ul class="stat-banner">
+  {% for stat in site.data.stats %}
+  <li class="stat-banner__block">
+    <span class="stat-banner__number">{{ stat.number }}</span>
+    <span class="stat-banner__label">{{ stat.label }}</span>
+  </li>
+  {% endfor %}
+</ul>
+<section class="ui-section" id="about">
+  <div class="ui-section__item">
+    <h1>
+      <span class="type-headline">Canada's premier engineering competition is back,</span>
+      <span class="type-headline">hosted by the nation's most innovative university.</span>
+    </h1>
+    <p>The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories.</p>
+    <p>In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective <a href="">Western</a>, <a href="">Ontario</a>, <a href="">Québec</a>, and <a href="">Atlantic</a> regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub.</p>
+  </div>
+</section>
+<section class="ui-section" id="categories">
+  <div class="ui-section__item">
+    <h1>Competition Categories</h1>
+    <ul class="category-grid">
+      {% for category in site.data.categories %}
+      <li class="category-grid__item">
+        <h2 class="category__title">{{ category.title }}</h2>
+        <p class="category__desc">{{ category.description }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<section class="ui-section" id="schedule">
+  <div class="ui-section__item">
+    <h1>Schedule</h1>
+    <img src="/static/img/schedule-thu.png" class="schedule">
+    <img src="/static/img/schedule-fri.png" class="schedule">
+    <img src="/static/img/schedule-sat.png" class="schedule">
+    <img src="/static/img/schedule-sun.png" class="schedule">
+  </div>
+</section>
+<section class="ui-section" id="sponsorship">
+  <div class="ui-section__item">
+    <div class="ui-stack">
+      <div class="ui-stack__item">
+        <h1>Sponsorship</h1>
+        <p>Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible for provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience.</p>
+        <p>Interested in sponsoring? Send us an email at <a href="mailto:sponsors@cec.cfes.ca">sponsors@cec.cfes.ca</a>.</p>
+        <a href="mailto:sponsors@cec.cfes.ca" class="btn">Become a sponsor</a>
+      </div>
+      <div class="ui-stack__item" id="sponsorship-partners">
+        <h1>Our Partners</h1>
+        <ul>
+          <li><a href="https://uwaterloo.ca/engineering/"><img src="/static/img/sponsor-uweng.png"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

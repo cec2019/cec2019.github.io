@@ -1,0 +1,61 @@
+////
+/// All variable, function, and mixin declarations for typography live here.
+/// @group typography, @group utilities
+////
+
+///
+/// Variable: font weights
+/// Syntax: $fw-[weight]
+
+$fw-light: 300;
+$fw-regular: 400;
+$fw-bold: 700;
+
+
+$font-family-data: (
+  'default': unquote("-apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif"),
+  'body': unquote("'Avenir', 'Nunito Sans', 'Helvetica Neue', sans-serif"),
+  'title': unquote("'Avenir', 'Nunito Sans', 'Helvetica Neue', sans-serif")
+);
+
+///
+/// Returns a font-family declaration given the associated name.
+/// @param {String} $variant [default] - the family name. Defaults to 'default'.
+/// @returns {String} - the desired font family declaration.
+
+@function ff($variant: 'default') {
+  @return retrieve-map-value($font-family-data, "font-family data", $variant);
+}
+
+
+$line-height-data: (
+  'tighter': 1,
+  'tight': 1.25,
+  'base': 1.5,
+  'loose': 1.625
+);
+
+///
+/// Returns a line-height given the associated name.
+/// @param {String} $variant [base] - the variant name. Defaults to 'base'.
+/// @return {Number} - the desired line-height.
+
+@function lh($variant: 'base') {
+  @return retrieve-map-value($line-height-data, "line-height data", $variant);
+}
+
+
+@mixin type-body {
+  font-size: 1rem;
+  line-height: lh();
+}
+
+@mixin type-heading {
+  line-height: lh(tight);
+  font-weight: 700;
+}
+
+@mixin type-title {
+  line-height: lh(tight);
+  font-weight: 900;
+}

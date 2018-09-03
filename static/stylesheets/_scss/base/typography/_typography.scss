@@ -1,0 +1,44 @@
+////
+/// All default styles for standard typography elements live here.
+/// @group typography
+////
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 1em 0;
+}
+
+h1,
+h2 {
+  // Chrome fix for extra font bolding
+  font-weight: $fw-regular;
+}
+
+
+///
+/// Basic text elements
+
+p {
+  @include type-body;
+}
+
+h1 {
+  @include type-title;
+  font-family: ff(title);
+}
+
+h2 {
+  @include type-heading;
+  font-family: ff(title);
+}
+
+.type-headline {
+  display: inline;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}

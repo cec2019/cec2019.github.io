@@ -1,0 +1,35 @@
+.category-grid {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  align-content: center;
+  list-style: none;
+}
+
+.category-grid__item {
+  width: calc(33% - 5rem);
+  padding: 2rem;
+  margin: 0 2rem 2rem 0;
+  flex: 1 1 auto;
+  background: color(white);
+  color: color(ink);
+  box-shadow: 0 0 3px 1px rgba(0,0,0,0.15);
+}
+
+.category__title {
+  @include type-heading;
+
+  &::after {
+    content: '';
+    width: 2em;
+    height: 3px;
+    margin-top: 0.125em;
+    background: color(yellow);
+    position: relative;
+    display: block;
+  }
+}
