@@ -1,8 +1,7 @@
 ---
-title: 'Hello World'
 navbar:
 - name: 'Acceuil'
-  url: '/'
+  url: '/fr'
 - name: 'À propos'
   url: '#about'
 - name: 'Catégories'
