@@ -1,15 +1,17 @@
 ---
 layout: default
+languages:
+- en
+- de
 ---
 
 <header class="ui-menu">
   <img src="/static/img/ceclogo.svg" class="ui-menu__logo">
   <nav class="ui-nav">
     <ul>
-      <li><a href="/" rel="index">Home</a></li>
-      <li><a href="#about">About CEC</a></li>
-      <li><a href="#categories">Categories</a></li>
-      <li><a href="#schedule">Schedule</a></li>
+      {% for link in site.data.en.navbar %}
+      <li><a href="{{link.url}}">{{link.name}}</a></li>
+      {% endfor %}
     </ul>
   </nav>
 </header>
@@ -19,7 +21,7 @@ layout: default
   </div>
 </section>
 <ul class="stat-banner">
-  {% for stat in site.data.stats %}
+  {% for stat in site.data.en.stats %}
   <li class="stat-banner__block">
     <span class="stat-banner__number">{{ stat.number }}</span>
     <span class="stat-banner__label">{{ stat.label }}</span>
@@ -40,7 +42,7 @@ layout: default
   <div class="ui-section__item">
     <h1>Competition Categories</h1>
     <ul class="category-grid">
-      {% for category in site.data.categories %}
+      {% for category in site.data.en.categories %}
       <li class="category-grid__item">
         <h2 class="category__title">{{ category.title }}</h2>
         <p class="category__desc">{{ category.description }}</p>

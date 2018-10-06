@@ -1,0 +1,70 @@
+---
+navbar:
+- name: 'Home'
+  url: '/'
+- name: 'About CEC'
+  url: '#about'
+- name: 'Categories'
+  url: '#categories'
+- name: 'Schedule'
+  url: '#schedule'
+
+nameplate:
+  title: CEC 2019
+  date: MARCH 1 – 4, 2019
+  location: UNIVERSITY OF WATERLOO
+
+stats:
+- number: 150
+  label: engineering students
+- number: 44
+  label: post-secondary institutions
+- number: 8
+  label: competition categories
+- number: 4
+  label: days of challenges
+
+about:
+  title: "Canada's premier engineering competition is back, hosted by the nation's most innovative university."
+  description: "The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories.
+
+  In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective Western, Ontario, Québec, and Atlantic regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub."
+  western: "http://wesst.ca/wec.html"
+  ontario: "https://oec2018.ca/"
+  quebec: "http://cqi-qec.qc.ca/2018/en/"
+  atlantic: "https://www.aces-caeg.com/events"
+
+categories:
+- title: Consulting
+  description: "Competitors will design and present a detailed solution to a large-scale engineering problem faced by real world clients."
+
+- title: Communications
+  description: "Competitors will describe an applicable process or issue and form a coherent argument that clearly identifies its social, economical, technological, and environmental impacts."
+
+- title: Programming
+  description: "Competitors will be tasked with creating, testing, and presenting industry-quality software that solves a given engineering challenge."
+
+- title: Innovative Design
+  description: "Competitors will develop new technological designs or improve upon existing ones and deliver their research and ideas via a professional presentation."
+
+- title: Junior Design
+  description: "Competitors in their first or second academic year of studies will be given a real-world problem to solve. They must use their knowledge of general engineering principles to work within time and budget constraints to design, create, and test a physical prototype of their proposed solution."
+
+- title: Senior Design
+  description: "Competitors in their third or fourth academic year of studies will be given a complex real-world problem to solve. They must use their knowledge of advanced engineering techniques to work within time and budget constraints to design, create, and test a physical prototype of their proposed solution."
+
+- title: Parliamentary Debate
+  description: "Competitors will defend or refute a previously undisclosed resolution topic that relates to engineering using the format of parliamentary debate."
+
+- title: Re-Engineering
+  description: "Competitors must redesign an existing product or process to either improve its functionality or to adapt it for a completely new purpose."
+
+sponsorhip:
+  title: "Sponsorship"
+  description: "Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible to provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience.
+
+  Interested in sponsoring? Send us an email at sponsors@cec.cfes.ca."
+  partners_section: "Our Partners"
+
+footer:
+  footer_text: University of Waterloo 2018 — 2019.
