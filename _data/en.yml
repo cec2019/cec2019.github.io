@@ -25,7 +25,8 @@ stats:
   label: days of challenges
 
 about:
-  title: "Canada's premier engineering competition is back, hosted by the nation's most innovative university."
+  title: "Canada's premier engineering competition is back"
+  title2: "hosted by the nation's most innovative university."
   description: "The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories.
 
   In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective Western, Ontario, Québec, and Atlantic regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub."
@@ -33,6 +34,9 @@ about:
   ontario: "https://oec2018.ca/"
   quebec: "http://cqi-qec.qc.ca/2018/en/"
   atlantic: "https://www.aces-caeg.com/events"
+
+comp_categories:
+  title: "Competition Categories"
 
 categories:
 - title: Consulting
@@ -65,6 +69,9 @@ sponsorhip:
 
   Interested in sponsoring? Send us an email at sponsors@cec.cfes.ca."
   partners_section: "Our Partners"
+
+schedule:
+  title: "Schedule"
 
 footer:
   footer_text: University of Waterloo 2018 — 2019.
