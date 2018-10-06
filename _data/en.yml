@@ -27,9 +27,7 @@ stats:
 about:
   title: "Canada's premier engineering competition is back"
   title2: "hosted by the nation's most innovative university."
-  description: "The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories.
-
-  In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective Western, Ontario, Québec, and Atlantic regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub."
+  description: "The Canadian Engineering Competition (CEC) is Canada's premier competition for undergraduate engineering students. Since its inception in 1985, CEC has invited the top 150 engineering students each year to compete in one of eight exciting competition categories."
   western: "http://wesst.ca/wec.html"
   ontario: "https://oec2018.ca/"
   quebec: "http://cqi-qec.qc.ca/2018/en/"
@@ -63,11 +61,9 @@ categories:
 - title: Re-Engineering
   description: "Competitors must redesign an existing product or process to either improve its functionality or to adapt it for a completely new purpose."
 
-sponsorhip:
+sponsorship:
   title: "Sponsorship"
-  description: "Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible to provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience.
-
-  Interested in sponsoring? Send us an email at sponsors@cec.cfes.ca."
+  description: "Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible to provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience."
   partners_section: "Our Partners"
 
 schedule:
