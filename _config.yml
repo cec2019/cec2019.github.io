@@ -27,5 +27,3 @@ sass:
 autoprefixer:
   browsers:
     - last 5 versions
-
-languages: ['en', 'fr']

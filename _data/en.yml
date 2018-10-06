@@ -8,6 +8,8 @@ navbar:
   url: '#categories'
 - name: 'Schedule'
   url: '#schedule'
+- name: 'Français'
+  url: '/fr'
 
 nameplate:
   title: CEC 2019

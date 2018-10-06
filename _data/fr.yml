@@ -9,6 +9,8 @@ navbar:
   url: '#categories'
 - name: 'Horaire'
   url: '#schedule'
+- name: 'English'
+  url: '/en'
 
 nameplate:
   title: CCI 2019
