@@ -1,20 +1,19 @@
----
+site:
+  title: "CCI 2019 | Université de Waterloo"
+  description: "Welcome to the Canadian Engineering Competition (CEC) 2019, hosted this year by the University of Waterloo."
+  keywords: cci,canada,compétition,canadienne,engineer,competition,2019,national,post-secondary,institution,université,college,universite,waterloo
+
 navbar:
-- name: 'Acceuil'
-  url: '/fr'
 - name: 'À propos'
-  url: '#about'
+  url: '#propros'
 - name: 'Catégories'
   url: '#categories'
 - name: 'Horaire'
-  url: '#schedule'
+  url: '#horaire'
+- name: 'Partenariat'
+  url: '#partenariat'
 - name: 'English'
-  url: '/en'
-
-nameplate:
-  title: CCI 2019
-  date: 1 – 4 MARS, 2019
-  location: UNIVERSITÉ DE WATERLOO
+  url: '/'
 
 stats:
 - number: 150
@@ -27,18 +26,17 @@ stats:
   label: jours des défis de conception
 
 about:
-  title: "La meilleure compétition d'ingénierie au Canada est retournée, "
-  title2: "accueillera par l'université la plus innovante de la nation."
-  description: "La compétition d’ingénierie canadienne est la compétition d’excellence en Canada pour les étudiants en génie. Depuis son début en 1985, la CCI a invité les 150 meilleurs étudiants en ingénierie canadien chaque année à participer dans une de huit catégories de compétition."
-  western: "http://wesst.ca/wec.html"
-  ontario: "https://oec2018.ca/"
-  quebec: "http://cqi-qec.qc.ca/2018/fr/"
-  atlantic: "https://www.aces-caeg.com/events"
+  section_id: about
+  headline_one: "La meilleure compétition d'ingénierie au Canada est retournée,"
+  headline_two: "accueillera par l'université la plus innovante de la nation."
+  description_one: "La compétition d’ingénierie canadienne est la compétition d’excellence en Canada pour les étudiants en génie. Depuis son début en 1985, la CCI a invité les 150 meilleurs étudiants en ingénierie canadien chaque année à participer dans une de huit catégories de compétition."
+  description_two: "Pour qualifier, les étudiants doivent premièrement gagner dans une compétition intra-universitaire, puis avoir du succès dans une compétition au niveau régional (<a href='http://wesst.ca/wec.html' target='_blank'>Régions de l’ouest</a>, <a href='https://oec2019.ca/' target='_blank'>de l’Ontario</a>, <a href='http://cqi-qec.qc.ca/2019/' target='_blank'>du Québec</a>, et <a href='https://www.aces-caeg.com/events' target='_blank'>de l’Atlantique</a>). En 2019, la culmination de ces efforts vont amener les concurrents à l’Université de Waterloo, qui est situé au coeur du centre de technologie et innovation du Canada."
 
-comp_categories:
-  title: "Catégories"
+categories: 
+  section_id: categories
+  title: "Catégories de compétition"
 
-categories:
+categories_list:
 - title: Génie conseil
   description: "Les concurrents vont concevoir et présenter une solution détaillée pour résoudre une problème d’ingénierie présente dans l’industrie."
 
@@ -63,17 +61,17 @@ categories:
 - title: Réingénierie
   description: "Les concurrents doivent refaire un produit ou processus existant, soit pour améliorer son fonctionnalité, soit l’adapter pour un nouveau objectif."
 
-sponsorship:
-  title: "Partenariat"
-  description: "Chaque année, notre commanditaires nous ont aidés à s’unir 150 ingénieurs futurs qui venaient de chaque région du Canada. Grâce à nos commanditaires, ces étudiants vont avoir la chance de participer dans une expérience unique qui va les inspirer."
-  description2: "Veuillez-vous devenir un partenaire? Envoyez-nous un courriel à "
-  buttontext: Devenir un commanditaire
-
 schedule:
+  section_id: horaire
   title: "Horaire"
 
-partners:
-  title: "Partenaires"
+sponsorship:
+  section_id: partenariat
+  title: "Partenariat"
+  description_one: "Chaque année, notre commanditaires nous ont aidés à s’unir 150 ingénieurs futurs qui venaient de chaque région du Canada. Grâce à nos commanditaires, ces étudiants vont avoir la chance de participer dans une expérience unique qui va les inspirer."
+  description_two: "Veuillez-vous devenir un partenaire? Envoyez-nous un courriel à <a href='mailto:sponsorship@cec.cfes.ca'>sponsorship@cec.cfes.ca</a>."
+  button_text: "Devenir un commanditaire"
+  partners_section: "Partenaires"
 
-footer:
-  footer_text: Université de Waterloo 2018 — 2019.
+footer: 
+  title: "Compétition Canadienne d’Ingénierie 2018 — 2019."
