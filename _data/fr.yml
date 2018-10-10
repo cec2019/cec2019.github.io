@@ -1,20 +1,14 @@
----
 navbar:
-- name: 'Acceuil'
-  url: '/fr'
 - name: 'À propos'
-  url: '#about'
+  url: '#propros'
 - name: 'Catégories'
   url: '#categories'
 - name: 'Horaire'
-  url: '#schedule'
+  url: '#horaire'
+- name: 'Partenariat'
+  url: '#partenariat'
 - name: 'English'
-  url: '/en'
-
-nameplate:
-  title: CCI 2019
-  date: 1 – 4 MARS, 2019
-  location: UNIVERSITÉ DE WATERLOO
+  url: '/'
 
 stats:
 - number: 150
@@ -25,55 +19,3 @@ stats:
   label: catégories de compétition
 - number: 4
   label: jours des défis de conception
-
-about:
-  title: "La meilleure compétition d'ingénierie au Canada est retournée, "
-  title2: "accueillera par l'université la plus innovante de la nation."
-  description: "La compétition d’ingénierie canadienne est la compétition d’excellence en Canada pour les étudiants en génie. Depuis son début en 1985, la CCI a invité les 150 meilleurs étudiants en ingénierie canadien chaque année à participer dans une de huit catégories de compétition."
-  western: "http://wesst.ca/wec.html"
-  ontario: "https://oec2018.ca/"
-  quebec: "http://cqi-qec.qc.ca/2018/fr/"
-  atlantic: "https://www.aces-caeg.com/events"
-
-comp_categories:
-  title: "Catégories"
-
-categories:
-- title: Génie conseil
-  description: "Les concurrents vont concevoir et présenter une solution détaillée pour résoudre une problème d’ingénierie présente dans l’industrie."
-
-- title: Communication scientifique
-  description: "Les concurrents vont décrire un processus approprié ou problème et créer un argument cohérent qui identifie les impacts sociaux, économiques, technologiques, et environnementaux."
-
-- title: Programmation
-  description: "Les concurrents vont être chargés de faire, tester, et présenter un logiciel au niveau industriel qui résout un défi d’ingénierie donné."
-
-- title: Design innovateur
-  description: "Les concurrents vont développer les nouvelles conceptions technologiques ou améliorer les conceptions préexistantes et montrer leur recherche et idées dans la forme d’une présentation professionnelle."
-
-- title: Conception junior
-  description: "Les concurrents dans leurs premiers ou deuxièmes années d’études vont recevoir un problème pour résoudre. Ils doivent utiliser leur connaissances générales des principes d’ingénierie en respectant les contraintes de temps et budget pour concevoir, créer, et tester un prototype physique de leur solution proposée."
-
-- title: Conception senior
-  description: "Les concurrents dans leurs troisième ou quatrième années d’études vont recevoir un problème complexe pour résoudre. Ils doivent utiliser leur connaissances avancées des principes d’ingénierie en respectant les contraintes de temps et budget pour concevoir, créer, et tester un prototype physique de leur solution proposée."
-
-- title: Débats oratoires
-  description: "Les concurrents vont défendre ou réfuter un résolution qui est relié à l’ingénierie sous la forme d’un débat oratoire."
-
-- title: Réingénierie
-  description: "Les concurrents doivent refaire un produit ou processus existant, soit pour améliorer son fonctionnalité, soit l’adapter pour un nouveau objectif."
-
-sponsorship:
-  title: "Partenariat"
-  description: "Chaque année, notre commanditaires nous ont aidés à s’unir 150 ingénieurs futurs qui venaient de chaque région du Canada. Grâce à nos commanditaires, ces étudiants vont avoir la chance de participer dans une expérience unique qui va les inspirer."
-  description2: "Veuillez-vous devenir un partenaire? Envoyez-nous un courriel à "
-  buttontext: Devenir un commanditaire
-
-schedule:
-  title: "Horaire"
-
-partners:
-  title: "Partenaires"
-
-footer:
-  footer_text: Université de Waterloo 2018 — 2019.

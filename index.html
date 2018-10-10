@@ -4,11 +4,15 @@ permalink: /
 ---
 
 <header class="ui-menu">
-  <img src="/static/img/ceclogo.svg" class="ui-menu__logo">
+  <div class="ui-menu__logo">
+    <a href="{% if site.lang == 'en' %}/{% else if site.lang == 'fr' %}/fr/{% endif %}" rel="index">
+      <img src="/static/img/ceclogo.svg" class="logo__img">
+    </a>
+  </div>
   <nav class="ui-nav">
     <ul>
-      {% for link in site.data.en.navbar %}
-      <li><a href="{{link.url}}">{{link.name}}</a></li>
+      {% for link in site.data[site.lang].navbar %}
+        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
       {% endfor %}
     </ul>
   </nav>
@@ -19,28 +23,28 @@ permalink: /
   </div>
 </section>
 <ul class="stat-banner">
-  {% for stat in site.data.en.stats %}
-  <li class="stat-banner__block">
-    <span class="stat-banner__number">{{ stat.number }}</span>
-    <span class="stat-banner__label">{{ stat.label }}</span>
-  </li>
+  {% for stat in site.data[site.lang].stats %}
+    <li class="stat-banner__block">
+      <span class="stat-banner__number">{{ stat.number }}</span>
+      <span class="stat-banner__label">{{ stat.label }}</span>
+    </li>
   {% endfor %}
 </ul>
-<section class="ui-section" id="about">
+<section class="ui-section" id="{% t about.section_id %}">
   <div class="ui-section__item">
     <h1>
-      <span class="type-headline">{{site.data.en.about.title}}</span>
-      <span class="type-headline">{{site.data.en.about.title2}}</span>
+      <span class="type-headline">{% t about.headline_one %}</span>
+      <span class="type-headline">{% t about.headline_two %}</span>
     </h1>
-    <p>{{site.data.en.about.description}}</p>
-    <p>In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective <a href="{{site.data.en.about.western}}" target="_blank">Western</a>, <a href="{{site.data.en.about.ontario}}" target="_blank">Ontario</a>, <a href="{{site.data.en.about.quebec}}" target="_blank">Québec</a>, and <a href="{{site.data.en.about.atlantic}}" target="_blank">Atlantic</a> regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub.</p>
+    <p>{% t about.description_one %}</p>
+    <p>{% t about.description_two %}</p>
   </div>
 </section>
-<section class="ui-section" id="categories">
+<section class="ui-section" id="{% t categories.section_id %}">
   <div class="ui-section__item">
-    <h1>{{site.data.en.comp_categories.title}}</h1>
+    <h1>{% t categories.title %}</h1>
     <ul class="category-grid">
-      {% for category in site.data.en.categories %}
+      {% for category in site.translations[site.lang].categories_list %}
       <li class="category-grid__item">
         <h2 class="category__title">{{ category.title }}</h2>
         <p class="category__desc">{{ category.description }}</p>
@@ -49,25 +53,24 @@ permalink: /
     </ul>
   </div>
 </section>
-<section class="ui-section" id="schedule">
+<section class="ui-section" id="{% t schedule.section_id %}">
   <div class="ui-section__item">
-    <h1>{{site.data.en.schedule.title}}</h1>
+    <h1>{% t schedule.title %}</h1>
     <img src="/static/img/thurs_fri_en.png" class="schedule">
-    <br/><br/>
     <img src="/static/img/sat_sun_en.png" class="schedule">
   </div>
 </section>
-<section class="ui-section" id="sponsorship">
+<section class="ui-section" id="{% t sponsorship.section_id %}">
   <div class="ui-section__item">
     <div class="ui-stack">
       <div class="ui-stack__item">
-        <h1>{{site.data.en.sponsorship.title}}</h1>
-        <p>{{site.data.en.sponsorship.description}}</p>
-        <p>Interested in sponsoring? Send us an email at <a href="mailto:sponsors@cec.cfes.ca">sponsors@cec.cfes.ca</a>.</p>
-        <a href="mailto:sponsors@cec.cfes.ca" class="btn">Become a sponsor</a>
+        <h1>{% t sponsorship.title %}</h1>
+        <p>{% t sponsorship.description_one %}</p>
+        <p>{% t sponsorship.description_two %}</p>
+        <a href="mailto:sponsorship@cec.cfes.ca" class="btn">{% t sponsorship.button_text %}</a>
       </div>
       <div class="ui-stack__item" id="sponsorship-partners">
-        <h1>Our Partners</h1>
+        <h1>{% t sponsorship.partners_section %}</h1>
         <ul>
           <li><a href="https://uwaterloo.ca/engineering/"><img src="/static/img/sponsor-uweng.png"></a></li>
         </ul>

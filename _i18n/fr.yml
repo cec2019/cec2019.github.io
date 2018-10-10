@@ -1,0 +1,55 @@
+site:
+  title: "CCI 2019 | Université de Waterloo"
+  description: "Welcome to the Canadian Engineering Competition (CEC) 2019, hosted this year by the University of Waterloo."
+  keywords: cci,canada,compétition,canadienne,engineer,competition,2019,national,post-secondary,institution,université,college,universite,waterloo
+
+about:
+  section_id: about
+  headline_one: "La meilleure compétition d'ingénierie au Canada est retournée,"
+  headline_two: "accueillera par l'université la plus innovante de la nation."
+  description_one: "La compétition d’ingénierie canadienne est la compétition d’excellence en Canada pour les étudiants en génie. Depuis son début en 1985, la CCI a invité les 150 meilleurs étudiants en ingénierie canadien chaque année à participer dans une de huit catégories de compétition."
+  description_two: "Pour qualifier, les étudiants doivent premièrement gagner dans une compétition intra-universitaire, puis avoir du succès dans une compétition au niveau régional (<a href='http://wesst.ca/wec.html' target='_blank'>Régions de l’ouest</a>, <a href='https://oec2019.ca/' target='_blank'>de l’Ontario</a>, <a href='http://cqi-qec.qc.ca/2019/' target='_blank'>du Québec</a>, et <a href='https://www.aces-caeg.com/events' target='_blank'>de l’Atlantique</a>). En 2019, la culmination de ces efforts vont amener les concurrents à l’Université de Waterloo, qui est situé au coeur du centre de technologie et innovation du Canada."
+
+categories: 
+  section_id: categories
+  title: "Catégories de compétition"
+
+categories_list:
+- title: Génie conseil
+  description: "Les concurrents vont concevoir et présenter une solution détaillée pour résoudre une problème d’ingénierie présente dans l’industrie."
+
+- title: Communication scientifique
+  description: "Les concurrents vont décrire un processus approprié ou problème et créer un argument cohérent qui identifie les impacts sociaux, économiques, technologiques, et environnementaux."
+
+- title: Programmation
+  description: "Les concurrents vont être chargés de faire, tester, et présenter un logiciel au niveau industriel qui résout un défi d’ingénierie donné."
+
+- title: Design innovateur
+  description: "Les concurrents vont développer les nouvelles conceptions technologiques ou améliorer les conceptions préexistantes et montrer leur recherche et idées dans la forme d’une présentation professionnelle."
+
+- title: Conception junior
+  description: "Les concurrents dans leurs premiers ou deuxièmes années d’études vont recevoir un problème pour résoudre. Ils doivent utiliser leur connaissances générales des principes d’ingénierie en respectant les contraintes de temps et budget pour concevoir, créer, et tester un prototype physique de leur solution proposée."
+
+- title: Conception senior
+  description: "Les concurrents dans leurs troisième ou quatrième années d’études vont recevoir un problème complexe pour résoudre. Ils doivent utiliser leur connaissances avancées des principes d’ingénierie en respectant les contraintes de temps et budget pour concevoir, créer, et tester un prototype physique de leur solution proposée."
+
+- title: Débats oratoires
+  description: "Les concurrents vont défendre ou réfuter un résolution qui est relié à l’ingénierie sous la forme d’un débat oratoire."
+
+- title: Réingénierie
+  description: "Les concurrents doivent refaire un produit ou processus existant, soit pour améliorer son fonctionnalité, soit l’adapter pour un nouveau objectif."
+
+schedule:
+  section_id: horaire
+  title: "Horaire"
+
+sponsorship:
+  section_id: partenariat
+  title: "Partenariat"
+  description_one: "Chaque année, notre commanditaires nous ont aidés à s’unir 150 ingénieurs futurs qui venaient de chaque région du Canada. Grâce à nos commanditaires, ces étudiants vont avoir la chance de participer dans une expérience unique qui va les inspirer."
+  description_two: "Veuillez-vous devenir un partenaire? Envoyez-nous un courriel à <a href='mailto:sponsorship@cec.cfes.ca'>sponsorship@cec.cfes.ca</a>."
+  button_text: "Devenir un commanditaire"
+  partners_section: "Partenaires"
+
+footer: 
+  title: "Compétition Canadienne d’Ingénierie 2018 — 2019."
