@@ -1,0 +1,21 @@
+navbar:
+- name: 'About CEC'
+  url: '#about'
+- name: 'Categories'
+  url: '#categories'
+- name: 'Schedule'
+  url: '#schedule'
+- name: 'Sponsorship'
+  url: '#sponsorship'
+- name: 'Français'
+  url: '/fr/'
+
+stats:
+- number: 150
+  label: engineering students
+- number: 44
+  label: post-secondary institutions
+- number: 8
+  label: competition categories
+- number: 4
+  label: days of challenges

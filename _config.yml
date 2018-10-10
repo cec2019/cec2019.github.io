@@ -12,7 +12,7 @@ url:
 baseurl: ""
 
 # Site Content
-logo: /static/img/favicon.png
+favicon: /static/img/favicon.png
 
 # Localization
 languages: ["en", "fr"]

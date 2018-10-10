@@ -3,28 +3,6 @@ site:
   description: "Welcome to the Canadian Engineering Competition (CEC) 2019, hosted this year by the University of Waterloo."
   keywords: cec,canada,engineering,engineer,canadian,competition,2019,national,post-secondary,institution,college,university,waterloo
 
-navbar:
-- name: 'About CEC'
-  url: '#about'
-- name: 'Categories'
-  url: '#categories'
-- name: 'Schedule'
-  url: '#schedule'
-- name: 'Sponsorship'
-  url: '#sponsorship'
-- name: 'Français'
-  url: '/fr/'
-
-stats:
-- number: 150
-  label: engineering students
-- number: 44
-  label: post-secondary institutions
-- number: 8
-  label: competition categories
-- number: 4
-  label: days of challenges
-
 about:
   section_id: about
   headline_one: "Canada's premier engineering competition is back,"

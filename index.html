@@ -11,8 +11,8 @@ permalink: /
   </div>
   <nav class="ui-nav">
     <ul>
-      {% for link in site.translations[site.lang].navbar %}
-        <li><a href="{{ link.url}}">{{ link.name }}</a></li>
+      {% for link in site.data[site.lang].navbar %}
+        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
       {% endfor %}
     </ul>
   </nav>
@@ -23,7 +23,7 @@ permalink: /
   </div>
 </section>
 <ul class="stat-banner">
-  {% for stat in site.translations[site.lang].stats %}
+  {% for stat in site.data[site.lang].stats %}
     <li class="stat-banner__block">
       <span class="stat-banner__number">{{ stat.number }}</span>
       <span class="stat-banner__label">{{ stat.label }}</span>

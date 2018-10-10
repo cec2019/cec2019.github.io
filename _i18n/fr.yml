@@ -3,28 +3,6 @@ site:
   description: "Welcome to the Canadian Engineering Competition (CEC) 2019, hosted this year by the University of Waterloo."
   keywords: cci,canada,compétition,canadienne,engineer,competition,2019,national,post-secondary,institution,université,college,universite,waterloo
 
-navbar:
-- name: 'À propos'
-  url: '#propros'
-- name: 'Catégories'
-  url: '#categories'
-- name: 'Horaire'
-  url: '#horaire'
-- name: 'Partenariat'
-  url: '#partenariat'
-- name: 'English'
-  url: '/'
-
-stats:
-- number: 150
-  label: étudiants et étudiantes en ingénierie
-- number: 44
-  label: écoles postsecondaires
-- number: 8
-  label: catégories de compétition
-- number: 4
-  label: jours des défis de conception
-
 about:
   section_id: about
   headline_one: "La meilleure compétition d'ingénierie au Canada est retournée,"

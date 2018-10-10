@@ -1,0 +1,21 @@
+navbar:
+- name: 'À propos'
+  url: '#propros'
+- name: 'Catégories'
+  url: '#categories'
+- name: 'Horaire'
+  url: '#horaire'
+- name: 'Partenariat'
+  url: '#partenariat'
+- name: 'English'
+  url: '/'
+
+stats:
+- number: 150
+  label: étudiants et étudiantes en ingénierie
+- number: 44
+  label: écoles postsecondaires
+- number: 8
+  label: catégories de compétition
+- number: 4
+  label: jours des défis de conception
