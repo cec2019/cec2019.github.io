@@ -35,6 +35,8 @@ categories_list:
 schedule:
   section_id: schedule
   title: Schedule
+  schedule_1: /static/img/fri_sat_en.png
+  schedule_2: /static/img/sun_mon_en.png
 
 sponsorship:
   section_id: sponsorship
