@@ -42,6 +42,8 @@ categories_list:
 schedule:
   section_id: horaire
   title: "Horaire"
+  schedule_1: /static/img/fri_sat_fr.png
+  schedule_2: /static/img/sun_mon_fr.png
 
 sponsorship:
   section_id: partenariat
