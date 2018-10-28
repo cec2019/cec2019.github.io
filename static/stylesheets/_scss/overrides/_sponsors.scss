@@ -1,20 +1,27 @@
-#sponsorship {
-  background: color(sky, lighter);
-}
-
+#sponsorship,
 #partenariat {
   background: color(sky, lighter);
 }
+
 .ui-stack {
   margin-bottom: 4rem;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: stretch;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
 }
 
 .ui-stack__item {
-  width: calc(50% - 2rem);
+  width: 100%;
+  margin-bottom: 4rem;
+
+  @media (min-width: 768px) {
+    width: calc(50% - 2rem);
+    margin-bottom: 0;
+  }
 }
 
 #sponsorship-partners {

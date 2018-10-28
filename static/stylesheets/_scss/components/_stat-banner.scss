@@ -1,26 +1,39 @@
 .stat-banner {
   width: 100%;
-  padding: 4em 10%;
+  padding: 2em 10%;
   margin: 0;
-  display: flex;
-  align-content: center;
-  justify-content: center;
   background: color(navy);
   color: color(sky, lighter);
   list-style: none;
+
+  @media (min-width: 768px) {
+    padding: 4em 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .stat-banner__block {
-  flex: 1 1 25%;
   display: block;
   text-align: center;
+  margin-bottom: 2em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 768px) {
+    flex: 1 1 25%;
+    margin-bottom: 0;
+  }
 }
 
 .stat-banner__number {
   display: block;
   font-size: 4rem;
   line-height: lh(tighter);
-  font-famiy: ff(title);
+  font-family: ff(title);
   font-weight: 900;
   color: color(yellow);
 }

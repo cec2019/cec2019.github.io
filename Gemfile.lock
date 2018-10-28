@@ -68,8 +68,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (>= 1.9.24)
-  jekyll (>= 3.8.4)
+  jekyll
   jekyll-autoprefixer
   jekyll-multiple-languages-plugin
   jekyll-seo-tag
