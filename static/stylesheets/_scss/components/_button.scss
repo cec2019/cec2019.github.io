@@ -1,7 +1,12 @@
 .btn {
   @include type-body;
 
+  margin: 0 0 1em 0;
   display: inline-block;
+
+  + .btn {
+    margin-left: 0.5em;
+  }
 }
 
 .btn--primary {
