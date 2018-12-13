@@ -50,8 +50,11 @@ sponsorship:
   title: "Partenariat"
   description_one: "Chaque année, notre commanditaires nous ont aidés à s’unir 150 ingénieurs futurs qui venaient de chaque région du Canada. Grâce à nos commanditaires, ces étudiants vont avoir la chance de participer dans une expérience unique qui va les inspirer."
   description_two: "Veuillez-vous devenir un partenaire? Envoyez-nous un courriel à <a href='mailto:sponsorship@cec.cfes.ca'>sponsorship@cec.cfes.ca</a>."
-  button_text: "Devenir un commanditaire"
   partners_section: "Partenaires"
+
+buttons:
+  become_sponsor: "Devenir un commanditaire"
+  view_sponsor_package: "Voici notre cahier partenariat"
 
 footer: 
   title: "Compétition Canadienne d’Ingénierie 2018 — 2019."

@@ -43,8 +43,11 @@ sponsorship:
   title: "Sponsorship"
   description_one: "Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible to provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience."
   description_two: "Interested in sponsoring? Send us an email at <a href='mailto:sponsorship@cec.cfes.ca'>sponsorship@cec.cfes.ca</a>."
-  button_text: "Become a sponsor"
   partners_section: "Our Partners"
+
+buttons:
+  become_sponsor: "Become a sponsor"
+  view_sponsor_package: "View our sponsorship package"
 
 footer: 
   title: "Canadian Engineering Competition 2018 — 2019."

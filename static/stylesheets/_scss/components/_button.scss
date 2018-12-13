@@ -1,12 +1,27 @@
 .btn {
   @include type-body;
 
-  margin: 2em 0;
-  padding: 1em 2em;
+  margin: 0 0 1em 0;
   display: inline-block;
+
+  + .btn {
+    margin-left: 0.5em;
+  }
+}
+
+.btn--primary {
+  padding: 1em 2em;
   background: color(navy);
   border-radius: 4em;
   color: color(sky, light);
   font-weight: 700;
   text-decoration: none;
+}
+
+.btn--link {
+  color: color(navy);
+}
+
+.btn-group {
+  margin: 2em 0;
 }

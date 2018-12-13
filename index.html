@@ -67,7 +67,10 @@ permalink: /
         <h1>{% t sponsorship.title %}</h1>
         <p>{% t sponsorship.description_one %}</p>
         <p>{% t sponsorship.description_two %}</p>
-        <a href="mailto:sponsorship@cec.cfes.ca" class="btn">{% t sponsorship.button_text %}</a>
+        <div class="btn-group">
+          <a href="mailto:sponsorship@cec.cfes.ca" class="btn btn--primary">{% t buttons.become_sponsor %}</a>
+          <a href="/static/files/CEC2019_Sponsorship_Package.pdf" class="btn btn--link">{% t buttons.view_sponsor_package %}</a>
+        </div>
       </div>
       <div class="ui-stack__item" id="sponsorship-partners">
         <h1>{% t sponsorship.partners_section %}</h1>
