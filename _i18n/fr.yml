@@ -1,16 +1,16 @@
 site:
   title: "CCI 2019 | Université de Waterloo"
-  description: "Welcome to the Canadian Engineering Competition (CEC) 2019, hosted this year by the University of Waterloo."
+  description: "Bienvenue à la Competition Canadienne d'Ingénierie (CCI) 2019, organisé cette année par l'Université de Waterloo."
   keywords: cci,canada,compétition,canadienne,engineer,competition,2019,national,post-secondary,institution,université,college,universite,waterloo
 
 about:
   section_id: about
   headline_one: "La meilleure compétition d'ingénierie au Canada est retournée,"
   headline_two: "accueillera par l'université la plus innovante de la nation."
-  description_one: "La compétition d’ingénierie canadienne est la compétition d’excellence en Canada pour les étudiants en génie. Depuis son début en 1985, la CCI a invité les 150 meilleurs étudiants en ingénierie canadien chaque année à participer dans une de huit catégories de compétition."
+  description_one: "La compétition canadienne d’ingénierie est la compétition d’excellence en Canada pour les étudiants en génie. Depuis son début en 1985, la CCI a invité les 150 meilleurs étudiants en ingénierie canadien chaque année à participer dans une de huit catégories de compétition."
   description_two: "Pour qualifier, les étudiants doivent premièrement gagner dans une compétition intra-universitaire, puis avoir du succès dans une compétition au niveau régional (<a href='https://wec2019.ca/' target='_blank'>Régions de l’ouest</a>, <a href='https://oec2019.ca/' target='_blank'>de l’Ontario</a>, <a href='http://cqi-qec.qc.ca/2019/' target='_blank'>du Québec</a>, et <a href='https://www.aces-caeg.com/events' target='_blank'>de l’Atlantique</a>). En 2019, la culmination de ces efforts vont amener les concurrents à l’Université de Waterloo, qui est situé au coeur du centre de technologie et innovation du Canada."
 
-categories: 
+categories:
   section_id: categories
   title: "Catégories de compétition"
 
@@ -56,5 +56,5 @@ buttons:
   become_sponsor: "Devenir un commanditaire"
   view_sponsor_package: "Voici notre cahier partenariat"
 
-footer: 
+footer:
   title: "Compétition Canadienne d’Ingénierie 2018 — 2019."
