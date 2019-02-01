@@ -11,6 +11,8 @@ about:
   description_two: "In order to qualify, students must first win in an intra-university competition, and then achieve top place in their respective <a href='https://wec2019.ca/' target='_blank'>Western</a>, <a href='https://oec2019.ca/' target='_blank'>Ontario</a>, <a href='http://cqi-qec.qc.ca/2019/en/home/' target='_blank'>Québec</a>, and <a href='https://www.aec2019.com/' target='_blank'>Atlantic</a> regional competitions. In 2019, the culmination of those efforts will bring competitors to showcase their skills at the University of Waterloo in the heart of our nation's tech and innovation hub."
   rulebook: "CEC 2019 Rulebook"
   rulebook_link: "https://drive.google.com/file/d/1YBwjI136YFbThnXBxwP5Qwm8VUv2QTfg/view?usp=sharing"
+  pre_delegate_package: "Pre-delegate Package"
+  pre_delegate_package_link: "https://drive.google.com/file/d/1_kHGN6LB3VlJkZDxqxprD3V07beISGiP/view"
 
 categories:
   section_id: categories
@@ -46,6 +48,7 @@ sponsorship:
   description_one: "Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible to provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience."
   description_two: "Interested in sponsoring? Send us an email at <a href='mailto:sponsorship@cec.cfes.ca'>sponsorship@cec.cfes.ca</a>."
   partners_section: "Our Partners"
+  package_link: "https://drive.google.com/file/d/1jxu_40nOXZ2uRXy8TdEOmqJ6ibR_Aj62/view"
 
 buttons:
   become_sponsor: "Become a sponsor"
