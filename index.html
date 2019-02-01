@@ -39,7 +39,8 @@ permalink: /
     <p>{% t about.description_one %}</p>
     <p>{% t about.description_two %}</p>
     <br/>
-    <a href="{% t about.rulebook_link %}" class="btn btn--primary">{% t about.rulebook %}</a>
+    <a href="{% t about.rulebook_link %}" target="_blank" class="btn btn--primary">{% t about.rulebook %}</a>
+    <a href="{% t about.pre_delegate_package_link %}" target="_blank" class="btn btn--primary">{% t about.pre_delegate_package %}</a>
   </div>
 </section>
 <section class="ui-section" id="{% t categories.section_id %}">
@@ -71,7 +72,7 @@ permalink: /
         <p>{% t sponsorship.description_two %}</p>
         <div class="btn-group">
           <a href="mailto:sponsorship@cec.cfes.ca" class="btn btn--primary">{% t buttons.become_sponsor %}</a>
-          <a href="https://drive.google.com/file/d/1jxu_40nOXZ2uRXy8TdEOmqJ6ibR_Aj62/view" class="btn btn--link">{% t buttons.view_sponsor_package %}</a>
+          <a href="{% t sponsorship.package_link %}" target="_blank" class="btn btn--link">{% t buttons.view_sponsor_package %}</a>
         </div>
       </div>
       <div class="ui-stack__item" id="sponsorship-partners">

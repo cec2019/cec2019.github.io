@@ -11,6 +11,8 @@ about:
   description_two: "Pour qualifier, les étudiants doivent premièrement gagner dans une compétition intra-universitaire, puis avoir du succès dans une compétition au niveau régional (<a href='https://wec2019.ca/' target='_blank'>Régions de l’ouest</a>, <a href='https://oec2019.ca/' target='_blank'>de l’Ontario</a>, <a href='http://cqi-qec.qc.ca/2019/' target='_blank'>du Québec</a>, et <a href='https://www.aec2019.com/' target='_blank'>de l’Atlantique</a>). En 2019, la culmination de ces efforts vont amener les concurrents à l’Université de Waterloo, qui est situé au coeur du centre de technologie et innovation du Canada."
   rulebook: "Règlements de la CCI 2019"
   rulebook_link: "https://drive.google.com/file/d/1cLFSgfghd-FdMHlxH3cfiVB8oC-XVgk2/view?usp=sharing"
+  pre_delegate_package: "Trousse préliminaire pour les délégués"
+  pre_delegate_package_link: "https://drive.google.com/file/d/1_kHGN6LB3VlJkZDxqxprD3V07beISGiP/view"
 
 categories:
   section_id: categories
@@ -53,6 +55,7 @@ sponsorship:
   description_one: "Chaque année, notre commanditaires nous ont aidés à s’unir 150 ingénieurs futurs qui venaient de chaque région du Canada. Grâce à nos commanditaires, ces étudiants vont avoir la chance de participer dans une expérience unique qui va les inspirer."
   description_two: "Veuillez-vous devenir un partenaire? Envoyez-nous un courriel à <a href='mailto:sponsorship@cec.cfes.ca'>sponsorship@cec.cfes.ca</a>."
   partners_section: "Partenaires"
+  package_link: "https://drive.google.com/file/d/1jxu_40nOXZ2uRXy8TdEOmqJ6ibR_Aj62/view"
 
 buttons:
   become_sponsor: "Devenir un commanditaire"
