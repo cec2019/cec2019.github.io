@@ -42,13 +42,90 @@ schedule:
   schedule_1: /static/img/fri_sat_en.png
   schedule_2: /static/img/sun_mon_en.png
 
+sponsors:
+  section_id: sponsors
+  title: "Our Partners"
+
+sponsors_list:
+- title: "Platinum"
+  sections:
+    - section_id: sponsors-platinum
+      list:
+      - link: https://www.hatch.com
+        img: /static/img/sponsor-hatch.png
+- title: "Gold"
+  sections:
+  - section_id: sponsors-gold
+    list:
+    - link: https://www.riotinto.com
+      img: /static/img/sponsor-rio-tinto.svg
+    - link: https://uwaterloo.ca/sandford-fleming-foundation
+      img: /static/img/sponsor-sff.png
+    - link: https://uwaterloo.ca/engineering
+      img: /static/img/sponsor-uweng.png
+- title: "Silver"
+  sections:
+  - section_id: sponsors-silver
+    list:
+    - link: https://www.bba.ca
+      img: /static/img/sponsor-bba.png
+    - link: https://mdacorporation.com
+      img: /static/img/sponsor-mda.jpg
+    - link: https://engineerscanada.ca
+      img: /static/img/sponsor-engineers-canada.jpg
+    - link: https://www.suncor.com
+      img: /static/img/sponsor-suncor-energy.svg
+- title: "Bronze"
+  sections:
+  - section_id: sponsors-bronze-three-col
+    list:
+    - link: https://www.acec.ca
+      img: /static/img/sponsor-acec.png
+    - link: http://kinross.com
+      img: /static/img/sponsor-kinross.jpg
+    - link: https://www.teledynedalsa.com
+      img: /static/img/sponsor-teledyne-dalsa.jpg
+  - section_id: sponsors-bronze-four-col
+    list:
+    - link: https://www.opg.com
+      img: /static/img/sponsor-opg.jpg
+    - link: https://uwaterloo.ca/mechanical-mechatronics-engineering
+      img: /static/img/sponsor-uwaterloo-mme.png
+    - link: https://www.rjc.ca
+      img: /static/img/sponsor-rjc.png
+    - link: https://www.slb.com
+      img: /static/img/sponsor-schlumberger.png
+- title: "Supporter"
+  sections:
+  - section_id: sponsors-supporter
+    list:
+    - link: https://uwaterloo.ca/electrical-computer-engineering
+      img: /static/img/sponsor-ece.png
+    - link: https://www.microsoft.com
+      img: /static/img/sponsor-microsoft.png
+    - link: https://www.engsoc.uwaterloo.ca
+      img: /static/img/sponsor-uwaterloo-engsoc.png
+
 sponsorship:
   section_id: sponsorship
   title: "Sponsorship"
   description_one: "Each year, our sponsors help us unite 150 aspiring engineers from across Canada. Our sponsors make it possible to provide these emerging engineering leaders the opportunity to be part of a once-in-a-lifetime experience."
   description_two: "Interested in sponsoring? Send us an email at <a href='mailto:sponsorship@cec.cfes.ca'>sponsorship@cec.cfes.ca</a>."
-  partners_section: "Our Partners"
   package_link: "https://drive.google.com/file/d/1jxu_40nOXZ2uRXy8TdEOmqJ6ibR_Aj62/view"
+
+contact:
+  section_id: contact-us
+  title: "Contact us"
+  email: "competitions@cec.cfes.ca"
+  description: "Please, do not hesitate to contact us if you have any questions."
+  email_section_id: contact-us-email
+  emails:
+  - title: "General inquiries"
+    email: "chair@cec.cfes.ca"
+  - title: "Logistics inquiries"
+    email: logistics@cec.fes.ca
+  - title: "Competition inquiries"
+    email: "competitions@cec.cfes.ca"
 
 buttons:
   become_sponsor: "Become a sponsor"

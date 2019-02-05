@@ -1,5 +1,5 @@
-#sponsorship,
-#partenariat {
+#sponsors,
+#partenaires {
   background: color(sky, lighter);
 }
 
@@ -37,4 +37,62 @@
     max-width: 100%;
     max-height: 100%;
   }
+}
+
+#sponsors-platinum {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+#sponsors-gold, #sponsors-bronze-three-col, #sponsors-supporter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    padding: 1%;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: 1280px) {
+      flex: 1 1 calc(33% - 5rem);
+    }
+    img {
+      margin: auto;
+    }
+  }
+}
+
+#sponsors-silver, #sponsors-bronze-four-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    padding: 1%;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: 1280px) {
+      flex: 1 1 calc(25% - 5rem);
+    }
+    img {
+      margin: auto;
+    }
+  }
+}
+
+.contact-us-email {
+  padding: 1% 0;
 }
