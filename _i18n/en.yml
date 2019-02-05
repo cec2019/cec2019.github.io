@@ -117,7 +117,7 @@ contact:
   section_id: contact-us
   title: "Contact us"
   email: "competitions@cec.cfes.ca"
-  description: "Please, do not hesitate to contact us if you have any questions."
+  description: "Please do not hesitate to contact us if you have any questions."
   email_section_id: contact-us-email
   emails:
   - title: "General inquiries"
