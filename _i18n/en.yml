@@ -117,6 +117,15 @@ contact:
   section_id: contact-us
   title: "Contact us"
   email: "competitions@cec.cfes.ca"
+  description: "Please, do not hesitate to contact us if you have any questions."
+  email_section_id: contact-us-email
+  emails:
+  - title: "General inquiries"
+    email: "chair@cec.cfes.ca"
+  - title: "Logistics inquiries"
+    email: logistics@cec.fes.ca
+  - title: "Competition inquiries"
+    email: "competitions@cec.cfes.ca"
 
 buttons:
   become_sponsor: "Become a sponsor"

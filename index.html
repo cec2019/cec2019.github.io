@@ -96,7 +96,14 @@ permalink: /
       </div>
       <div class="ui-stack__item" id="sponsorship-partners">
         <h1>{% t contact.title %}</h1>
-        <a href="mailto:{% t contact.email %}" class="btn btn--link">{% t contact.email %}</a>
+        <p>{% t contact.description %}</p>
+        <p>
+          {% for em in site.translations[site.lang].contact.emails %}
+          <div class="{% t contact.email_section_id %}">
+            {{ em.title }}: <a href="mailto:{{ em.email }}">{{ em.email }}</a>
+          </div>
+          {% endfor %}
+        </p>
       </div>
     </div>
   </div>

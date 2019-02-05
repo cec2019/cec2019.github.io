@@ -125,6 +125,15 @@ contact:
   section_id: contact-us
   title: "Contacts"
   email: "competitions@cec.cfes.ca"
+  description: "S'il vous plaît, n'hésitez pas à nous contacter si vous avez des questions."
+  email_section_id: contact-us-email
+  emails:
+  - title: "Demandes générales"
+    email: "chair@cec.cfes.ca"
+  - title: "Demandes logistiques"
+    email: logistics@cec.fes.ca
+  - title: "Demandes de concours"
+    email: "competitions@cec.cfes.ca"
 
 buttons:
   become_sponsor: "Devenir un commanditaire"
