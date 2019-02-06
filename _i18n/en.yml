@@ -43,7 +43,7 @@ schedule:
   schedule_2: /static/img/sun_mon_en.png
 
 sponsors:
-  section_id: sponsors
+  section_id: partners
   title: "Our Partners"
 
 sponsors_list:
