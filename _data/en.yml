@@ -5,6 +5,8 @@ navbar:
   url: '#categories'
 - name: 'Schedule'
   url: '#schedule'
+- name: 'Our Partners'
+  url: '#partners'
 - name: 'Sponsorship'
   url: '#sponsorship'
 - name: 'Français'
