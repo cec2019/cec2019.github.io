@@ -100,7 +100,7 @@ sponsors_list:
   - section_id: sponsors-supporter
     list:
     - link: https://uwaterloo.ca/electrical-computer-engineering
-      img: /static/img/sponsor-ece.png
+      img: /static/img/sponsor-uwaterloo-ece.png
     - link: https://www.microsoft.com
       img: /static/img/sponsor-microsoft.png
     - link: https://www.engsoc.uwaterloo.ca
