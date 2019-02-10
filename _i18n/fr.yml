@@ -104,13 +104,17 @@ sponsors_list:
       img: /static/img/sponsor-schlumberger.png
 - title: "Collaborateur"
   sections:
-  - section_id: sponsors-supporter
+  - section_id: sponsors-supporter-three-col
     list:
     - link: https://uwaterloo.ca/electrical-computer-engineering
       img: /static/img/sponsor-uwaterloo-ece.png
     - link: https://www.microsoft.com
       img: /static/img/sponsor-microsoft.png
-    - link: https://www.engsoc.uwaterloo.ca
+    - link: https://uwaterloo.ca/systems-design-engineering/
+      img: /static/img/sponsor-uwaterloo-syde.png
+  - section_id: sponsors-supporter-two-col
+    list:
+    - link: https://www.engsoc.uwaterloo.ca/
       img: /static/img/sponsor-uwaterloo-engsoc.png
     - link: https://www.stickermule.com/supports/CFES19
       img: /static/img/sponsor-sticker-mule.png
