@@ -70,9 +70,9 @@ sponsors_list:
     - link: https://www.bba.ca
       img: /static/img/sponsor-bba.png
     - link: https://mdacorporation.com
-      img: /static/img/sponsor-mda.jpg
+      img: /static/img/sponsor-mda.png
     - link: https://engineerscanada.ca
-      img: /static/img/sponsor-engineers-canada.jpg
+      img: /static/img/sponsor-engineers-canada.png
     - link: https://www.suncor.com
       img: /static/img/sponsor-suncor-energy.svg
 - title: "Bronze"
@@ -84,11 +84,11 @@ sponsors_list:
     - link: http://kinross.com
       img: /static/img/sponsor-kinross.jpg
     - link: https://www.teledynedalsa.com
-      img: /static/img/sponsor-teledyne-dalsa.jpg
+      img: /static/img/sponsor-teledyne-dalsa.png
   - section_id: sponsors-bronze-four-col
     list:
     - link: https://www.opg.com
-      img: /static/img/sponsor-opg.jpg
+      img: /static/img/sponsor-opg.png
     - link: https://uwaterloo.ca/mechanical-mechatronics-engineering
       img: /static/img/sponsor-uwaterloo-mme.png
     - link: https://www.rjc.ca
@@ -105,6 +105,8 @@ sponsors_list:
       img: /static/img/sponsor-microsoft.png
     - link: https://www.engsoc.uwaterloo.ca
       img: /static/img/sponsor-uwaterloo-engsoc.png
+    - link: https://www.stickermule.com/supports/CFES19
+      img: /static/img/sponsor-sticker-mule.png
 
 sponsorship:
   section_id: sponsorship
