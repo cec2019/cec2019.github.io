@@ -106,8 +106,7 @@
     align-items: center;
     flex-direction: column;
     @media (min-width: 1280px) {
-      max-width: 33%;
-      flex: 1 1 calc(50% - 5rem);
+      flex: 1 1 calc(33% - 5rem);
     }
     img {
       margin: auto;
