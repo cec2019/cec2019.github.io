@@ -22,22 +22,22 @@ categories_list:
 - title: Génie conseil
   description: "Les concurrents vont concevoir et présenter une solution détaillée pour résoudre une problème d’ingénierie présente dans l’industrie."
 
-- title: Communication scientifique
+- title: Communications en génie
   description: "Les concurrents vont décrire un processus approprié ou problème et créer un argument cohérent qui identifie les impacts sociaux, économiques, technologiques, et environnementaux."
 
 - title: Programmation
   description: "Les concurrents vont être chargés de faire, tester, et présenter un logiciel au niveau industriel qui résout un défi d’ingénierie donné."
 
-- title: Design innovateur
+- title: Conception innovatrice
   description: "Les concurrents vont développer les nouvelles conceptions technologiques ou améliorer les conceptions préexistantes et montrer leur recherche et idées dans la forme d’une présentation professionnelle."
 
-- title: Conception junior
+- title: Conception d'équipe junior
   description: "Les concurrents dans leurs premiers ou deuxièmes années d’études vont recevoir un problème pour résoudre. Ils doivent utiliser leur connaissances générales des principes d’ingénierie en respectant les contraintes de temps et budget pour concevoir, créer, et tester un prototype physique de leur solution proposée."
 
-- title: Conception senior
+- title: Conception d'équipe senior
   description: "Les concurrents dans leurs troisième ou quatrième années d’études vont recevoir un problème complexe pour résoudre. Ils doivent utiliser leur connaissances avancées des principes d’ingénierie en respectant les contraintes de temps et budget pour concevoir, créer, et tester un prototype physique de leur solution proposée."
 
-- title: Débats oratoires
+- title: Débat oratoire
   description: "Les concurrents vont défendre ou réfuter un résolution qui est relié à l’ingénierie sous la forme d’un débat oratoire."
 
 - title: Réingénierie
