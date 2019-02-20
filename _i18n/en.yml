@@ -30,7 +30,7 @@ categories_list:
 - title: Junior Team Design
   description: "Competitors in their first or second academic year of studies will be given a real-world problem to solve. They must use their knowledge of general engineering principles to work within time and budget constraints to design, create, and test a physical prototype of their proposed solution."
 - title: Senior Team Design
-  description: "Competitors in their third or fourth academic year of studies will be given a complex real-world problem to solve. They must use their knowledge of advanced engineering techniques to work within time and budget constraints to design, create, and test a physical prototype of their proposed solution."
+  description: "Competitors will be given a complex real-world problem to solve. They must use their knowledge of advanced engineering techniques to work within time and budget constraints to design, create, and test a physical prototype of their proposed solution."
 - title: Extemporaneous Debate
   description: "Competitors will defend or refute a previously undisclosed resolution topic that relates to engineering using the format of parliamentary debate."
 - title: Re-engineering
