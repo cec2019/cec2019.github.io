@@ -21,12 +21,14 @@ categories:
 categories_list:
 - title: Génie conseil
   description: "Les concurrents vont concevoir et présenter une solution détaillée pour résoudre une problème d’ingénierie présente dans l’industrie."
+  description_two: "Le thème pour le concours de cette année est « la prévention, la protection et la réaction aux inondations en milieu urbain."
 
 - title: Communications en génie
   description: "Les concurrents vont décrire un processus approprié ou problème et créer un argument cohérent qui identifie les impacts sociaux, économiques, technologiques, et environnementaux."
 
 - title: Programmation
   description: "Les concurrents vont être chargés de faire, tester, et présenter un logiciel au niveau industriel qui résout un défi d’ingénierie donné."
+  description_two: "Le thème pour le concours de cette année est « l'automatisation dans l'industrie de la restauration semi-formelle."
 
 - title: Conception innovatrice
   description: "Les concurrents vont développer les nouvelles conceptions technologiques ou améliorer les conceptions préexistantes et montrer leur recherche et idées dans la forme d’une présentation professionnelle."
@@ -36,6 +38,7 @@ categories_list:
 
 - title: Conception d'équipe senior
   description: "Les concurrents vont recevoir un problème complexe pour résoudre. Ils doivent utiliser leur connaissances avancées des principes d’ingénierie en respectant les contraintes de temps et budget pour concevoir, créer, et tester un prototype physique de leur solution proposée."
+  description_two: "Le thème pour le concours de cette année est de « Mettre fin à la faim » et le défi met l’accent sur le traitement et la production alimentaire durable. Les équipes seront encouragés à mettre l’accent sur la sécurité, la durabilité et l’innovation."
 
 - title: Débat oratoire
   description: "Les concurrents vont défendre ou réfuter un résolution qui est relié à l’ingénierie sous la forme d’un débat oratoire."
