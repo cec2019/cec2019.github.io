@@ -21,16 +21,19 @@ categories:
 categories_list:
 - title: Consulting Engineering
   description: "Competitors will design and present a detailed solution to a large-scale engineering problem faced by real world clients."
+  description_two: "The theme for this year's competition is extreme weather prevention, protection, and response."
 - title: Engineering Communications
   description: "Competitors will describe an applicable process or issue and form a coherent argument that clearly identifies its social, economical, technological, and environmental impacts."
 - title: Programming
   description: "Competitors will be tasked with creating, testing, and presenting industry-quality software that solves a given engineering challenge."
+  description_two: "The theme for this year's competition is automation in the semi-formal eatery industry."
 - title: Innovative Design
   description: "Competitors will develop new technological designs or improve upon existing ones and deliver their research and ideas via a professional presentation."
 - title: Junior Team Design
   description: "Competitors in their first or second academic year of studies will be given a real-world problem to solve. They must use their knowledge of general engineering principles to work within time and budget constraints to design, create, and test a physical prototype of their proposed solution."
 - title: Senior Team Design
   description: "Competitors will be given a complex real-world problem to solve. They must use their knowledge of advanced engineering techniques to work within time and budget constraints to design, create, and test a physical prototype of their proposed solution."
+  description_two: "The theme for this year’s competition is “Ending Hunger” and the challenge focuses on sustainable food production and handling. Teams will be encouraged to focus on safety, sustainability, and innovation."
 - title: Extemporaneous Debate
   description: "Competitors will defend or refute a previously undisclosed resolution topic that relates to engineering using the format of parliamentary debate."
 - title: Re-engineering

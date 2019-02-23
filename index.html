@@ -55,6 +55,9 @@ permalink: /
       <li class="category-grid__item">
         <h2 class="category__title">{{ category.title }}</h2>
         <p class="category__desc">{{ category.description }}</p>
+        {% if category.description_two %}
+        <p class="category__desc">{{ category.description_two }}</p>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>
