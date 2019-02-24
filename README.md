@@ -1,2 +1,2 @@
-# cec2019.github.io
+# cec.cfes.ca
 CEC 2019 Website
